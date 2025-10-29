@@ -9,6 +9,9 @@ DTMerの皆様にもご提供いたします。よければご利用ください
 **Hirohide AveがGitHubに公開・作成しています。**
 """)
 
+#ホームページのリンクを追加
+st.markdown('<a href="https://sites.google.com/view/sysxtem" target="_blank-color:#4CAF50;color:white;border:none;padding:10px 20px;">私のホームページ（sysXtem)</button></a>', unsafe_allow_html=True)
+
 
 # 入力フォーム
 key = st.text_input("調性（例：長調、短調）")
