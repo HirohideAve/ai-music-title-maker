@@ -2,6 +2,14 @@ import streamlit as st
 
 st.title("曲名プロンプト生成アプリ")
 
+# 説明文を追加
+st.markdown("""
+ChatGPTなどAIに食わせるプロンプト文章を生成するだけの簡単なフォームです。  
+DTMerの皆様にもご提供いたします。よければご利用ください。  
+**Hirohide AveがGitHubに公開・作成しています。**
+""")
+
+
 # 入力フォーム
 key = st.text_input("調性（例：長調、短調）")
 instruments = st.text_input("使用楽器（例：ピアノ、ストリングス）")
